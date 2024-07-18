@@ -1,0 +1,86 @@
+.wrapper, html,body {
+    height:100%;
+    margin: 0;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid purple;
+    border-radius: 10px;
+    background: #6943FF;
+    text-align: center;
+    height: 30%;
+    
+}
+
+#title{
+    color: white;
+    margin: -30px auto 40px auto;
+}
+
+.input{
+    border: 1px solid white;
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    width: 140px;
+    padding: 3px 20px 3px 20px;
+    text-align: center;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 25px;
+}
+
+#convert-btn{
+    display:flex;
+    justify-content: center;
+    border-radius: 5px; 
+    color:black;
+    font-size: 15px;
+    background: white;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50px;
+    padding: 10px 30px 10px 30px;
+    text-align: center; 
+    margin:0 auto -25px auto;
+} 
+
+#div2{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    flex: 1;
+    
+}
+
+.conversion-boxes{
+   background: white; 
+   color: black;
+   font-size: 25px;
+   text-align: center;
+   width: 80%;
+   height: 80px; 
+   border-radius: 10px;
+   padding: 15px 15px 15px 15px;
+   margin-bottom: 30px;
+}
+
+.totals{
+    margin:16px;
+    font-size: 15px;
+}
